@@ -6,7 +6,7 @@ else if(userPreference==='sugar-free'){
     console.log("User prefers Sugar-free Monster Energy drink.");
 }
 else{
-    console.log(`User preference is not set,defaulting to Regular Monster Energy drink.`);
+    console.log(`User preference not set,default  to Regular Monster Energy drink.`);
 }
 
 
