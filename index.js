@@ -20,7 +20,7 @@ else{
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-console.log(``);
+console.log(cansLeft< 5? "Time to restock": "We're stocked!");
 
 
 // #### Challenge 3: Workout Intensity
