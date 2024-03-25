@@ -28,8 +28,4 @@ console.log(currentTemp<= 5 ?"Chilled to perfection!":"Needs a cooler!");
 
 // Define the current hour in 24-hour format
 let currentHour = 22; 
-if (currentHour >= 7 && currentHour < 24) {
-    console.log("Unleash the beast!");
-} else {
-    console.log("Better stick to water.");
-}
+    console.log(currentHour >= 7 && currentHour < 24?"Unleash the beast!":"Better stick to water.");
